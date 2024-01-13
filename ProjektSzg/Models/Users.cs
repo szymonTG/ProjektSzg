@@ -16,7 +16,8 @@ namespace ProjektSzg.Models
         [MinLength(1)]
         public string surname { get; set; }
         [Required(ErrorMessage = "The user telephone number is required!")]
-
+        [MaxLength(9)]
+        [MinLength(9)]
         public int telNumber { get; set; }
 
         public ICollection<BookRentals>? BookRentals { get; set; }
