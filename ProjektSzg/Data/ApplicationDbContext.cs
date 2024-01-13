@@ -14,13 +14,10 @@ namespace ProjektSzg.Data
         {
             base.OnModelCreating(builder);
         }
-        public DbSet<BookRentals> t_BookRentals { get; set; }
-        public DbSet<Books> t_Books { get; set; }
-        public DbSet<Employees> t_Employees { get; set; }
-        public DbSet<Users> t_Users { get; set; }
-
-
-
+        public DbSet<BookRentals> TableBookRentals { get; set; }
+        public DbSet<Books> TableBooks { get; set; }
+        public DbSet<Employees> TableEmployees { get; set; }
+        public DbSet<Users> TableUsers { get; set; }
 
     }
 }
