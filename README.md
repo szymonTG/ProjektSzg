@@ -7,7 +7,7 @@ Used packages:
     AspNetCore.Identity 6.0.0  
     AspNetCore.EntityFrameworkCore 6.0.0  
 
-Database sample data creation code:
+Database sample data creation code(need to create users using 'Register' button):
 
 ```
 /*
