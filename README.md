@@ -1,5 +1,5 @@
 # Simple Library Management App 
-###student's project for .NET Core lab.  
+### student's project for .NET Core lab.  
 App shows books in possesion of the Library, User views (access restricted to e.g. Employees view) and Admin views (all pages available).
 
 Used packages:  
